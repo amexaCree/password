@@ -21,7 +21,7 @@ BLOWFISH_OBJS = \
 	$(BLOWFISH_DIR)/wrapper.o \
 	$(BLOWFISH_DIR)/x86.o
 
-CFLAGS = -I$(RM_INCLUDE_DIR) -I$(BLOWFISH_DIR) -Wall -g -fPIC -Og -std=gnu99  
+CFLAGS = -I$(RM_INCLUDE_DIR) -I$(BLOWFISH_DIR) -Wall -g -fPIC -o -std=gnu99  
 CC=gcc
 .SUFFIXES: .c .so .xo .o
 
